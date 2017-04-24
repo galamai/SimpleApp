@@ -1,10 +1,52 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76D0C65A-739F-4AF3-8503-0D391A1C9219}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp", "src\SimpleApp\SimpleApp.csproj", "{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "samples\ConsoleApp1\ConsoleApp1.csproj", "{C04ED69A-F7D6-43F8-A2A2-987D782DD443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApp.AzureStorage", "src\SimpleApp.AzureStorage\SimpleApp.AzureStorage.csproj", "{C3EC8412-4A05-4D59-9D5C-9D171257579E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{1E061172-E36D-4A4B-832A-DBB70A6298D8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04ED69A-F7D6-43F8-A2A2-987D782DD443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04ED69A-F7D6-43F8-A2A2-987D782DD443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04ED69A-F7D6-43F8-A2A2-987D782DD443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04ED69A-F7D6-43F8-A2A2-987D782DD443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EC8412-4A05-4D59-9D5C-9D171257579E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EC8412-4A05-4D59-9D5C-9D171257579E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EC8412-4A05-4D59-9D5C-9D171257579E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EC8412-4A05-4D59-9D5C-9D171257579E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9461B25-9FC6-4BF0-99D7-8CAA5EA98E33} = {76D0C65A-739F-4AF3-8503-0D391A1C9219}
+		{C04ED69A-F7D6-43F8-A2A2-987D782DD443} = {1E061172-E36D-4A4B-832A-DBB70A6298D8}
+		{C3EC8412-4A05-4D59-9D5C-9D171257579E} = {76D0C65A-739F-4AF3-8503-0D391A1C9219}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
 	EndGlobalSection
 EndGlobal
